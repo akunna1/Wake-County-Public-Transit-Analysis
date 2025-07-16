@@ -1,16 +1,43 @@
-# Wake-County-Public-Transit-Analysis
-Which Neighborhoods in Wake County, NC have the least access to public transit?
+# 🚍 Wake County Public Transit Analysis
 
-#### Links/Sources:
-- https://goraleigh.org/developer-resources
-- https://api.census.gov/data/key_signup.html
-- https://www.census.gov/cgi-bin/geo/shapefiles/
+## Which Neighborhoods in Wake County, NC have the least access to public transit? 🗺️
 
-#### Description:
-This project analyzes public transit access in Wake County, NC, by focusing on the least accessible neighborhoods. The analysis utilizes the 2025 GoRaleigh GTFS data, which includes transit route information, bus stops, stop times, and route shapes, and combines it with the 2022 U.S. Census data. The goal is to identify areas with limited access to public transit and how various socioeconomic factors, such as car ownership, income levels, and household sizes, correlate with these areas.
+---
 
-For this project, the 2025 GTFS data is crucial as it provides insights into bus routes and service frequencies, while the 2022 Census data offers a comprehensive look at household characteristics within Wake County. By mapping out neighborhoods with limited transit access and overlaying socioeconomic data, the project aims to shed light on areas where the public transit infrastructure may need improvement. The analysis uses buffers around bus stops (400m radius) to determine which areas fall within transit reach and highlights neighborhoods that may face transportation challenges.
+## Links / Data Sources
 
-Future Improvements: Future improvements for this project could include expanding the analysis to include data from other transit systems in the region or integrating more granular demographic data from the Census. This would provide a deeper understanding of how transit access intersects with other factors and further inform decisions about transportation planning and development in Wake County. Additionally, using a crosswalk file to translate the 2022 Census data to 2025 estimates would align the demographic data with the latest transit data, improving the accuracy of the analysis and enhancing its relevance for future planning.
+* [GoRaleigh Developer Resources](https://goraleigh.org/developer-resources)
+* [U.S. Census API Key Signup](https://api.census.gov/data/key_signup.html)
+* [U.S. Census Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/)
 
+---
 
+## Description
+
+This project analyzes public transit 🚌 accessibility across Wake County, North Carolina. It focuses on neighborhoods with the least access to bus routes and stops. The project combines the **2025 GoRaleigh GTFS data** which includes transit routes, stops, and schedules with **2022 U.S. Census** data on socioeconomic factors like car ownership, income, and household size.
+
+Using a 400-meter buffer around bus stops, the analysis identifies neighborhoods outside typical transit reach. The goal is to highlight areas where transit service may be insufficient and explore how these areas relate to demographic characteristics. This helps inform transportation planning and improvements.
+
+---
+
+## Future Improvements 🔧
+
+* Add transit data from other regional providers
+* Include more detailed demographic data for better analysis
+* Use crosswalk files to align 2022 Census data with 2025 transit datasets
+* Create interactive maps and better visualizations to share findings
+
+---
+
+## Technologies Used
+
+* GTFS (General Transit Feed Specification) Data
+* U.S. Census Bureau Data
+* GIS and spatial analysis tools
+* Mapping and buffer analysis techniques
+
+---
+
+## Purpose
+
+To support fair transit planning and development by identifying underserved neighborhoods in Wake County and understanding their challenges.
