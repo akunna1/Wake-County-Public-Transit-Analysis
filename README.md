@@ -20,6 +20,14 @@ Using a 400-meter buffer around bus stops, the analysis identifies neighborhoods
 
 ---
 
+## Metrics
+
+- Median Income
+- Households without vehicles
+- Average Household Size 
+
+---
+
 ## Future Improvements 🔧
 
 * Add transit data from other regional providers
